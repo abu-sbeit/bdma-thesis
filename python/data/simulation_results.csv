@@ -1,0 +1,91 @@
+Processed_Entity_ID,Worker_ID,Step_Number,Timestamp
+1,1,Entrada Material Sucio,1.0
+1,1,Montaje,1.4
+2,1,Entrada Material Sucio,2.0
+2,1,Montaje,2.4
+3,1,Entrada Material Sucio,3.0
+1,1,Cargado en carro L+D,3.1
+3,1,Montaje,3.4
+4,2,Entrada Material Sucio,4.0
+4,2,Montaje,4.4
+5,1,Entrada Material Sucio,5.0
+1,1,Carga L+D initiada,5.2
+5,1,Montaje,5.4
+6,5,Entrada Material Sucio,6.0
+2,1,Cargado en carro L+D,6.1
+6,5,Montaje,6.4
+7,1,Entrada Material Sucio,7.0
+7,1,Montaje,7.4
+8,2,Entrada Material Sucio,8.0
+8,2,Montaje,8.4
+9,4,Entrada Material Sucio,9.0
+3,1,Cargado en carro L+D,9.1
+9,4,Montaje,9.4
+10,2,Entrada Material Sucio,10.0
+2,1,Carga L+D initiada,10.2
+10,2,Montaje,10.4
+4,2,Cargado en carro L+D,12.1
+5,1,Cargado en carro L+D,15.1
+3,1,Carga L+D initiada,15.2
+1,1,Producción montada,15.5
+6,5,Cargado en carro L+D,18.1
+4,2,Carga L+D initiada,20.2
+7,1,Cargado en carro L+D,21.1
+8,2,Cargado en carro L+D,24.1
+5,1,Carga L+D initiada,25.2
+9,4,Cargado en carro L+D,27.1
+10,2,Cargado en carro L+D,30.1
+6,5,Carga L+D initiada,30.2
+2,1,Producción montada,30.5
+7,1,Carga L+D initiada,35.2
+8,2,Carga L+D initiada,40.2
+9,4,Carga L+D initiada,45.2
+3,1,Producción montada,45.5
+10,2,Carga L+D initiada,50.2
+1,1,Composición de cargas,50.6
+4,2,Producción montada,60.5
+1,1,Carga L+D liberada,75.3
+5,1,Producción montada,75.5
+6,5,Producción montada,90.5
+2,1,Composición de cargas,100.6
+7,1,Producción montada,105.5
+1,1,Carga de esterilizador liberada,110.7
+8,2,Producción montada,120.5
+9,4,Producción montada,135.5
+2,1,Carga L+D liberada,150.3
+10,2,Producción montada,150.5
+3,1,Composición de cargas,150.6
+1,1,Comisionado,150.8
+4,2,Composición de cargas,200.6
+2,1,Carga de esterilizador liberada,220.7
+3,1,Carga L+D liberada,225.3
+5,1,Composición de cargas,250.6
+4,2,Carga L+D liberada,300.3
+6,5,Composición de cargas,300.6
+2,1,Comisionado,300.8
+3,1,Carga de esterilizador liberada,330.7
+7,1,Composición de cargas,350.6
+5,1,Carga L+D liberada,375.3
+8,2,Composición de cargas,400.6
+4,2,Carga de esterilizador liberada,440.7
+6,5,Carga L+D liberada,450.3
+9,4,Composición de cargas,450.6
+3,1,Comisionado,450.8
+10,2,Composición de cargas,500.6
+7,1,Carga L+D liberada,525.3
+5,1,Carga de esterilizador liberada,550.7
+8,2,Carga L+D liberada,600.3
+4,2,Comisionado,600.8
+6,5,Carga de esterilizador liberada,660.7
+9,4,Carga L+D liberada,675.3
+10,2,Carga L+D liberada,750.3
+5,1,Comisionado,750.8
+7,1,Carga de esterilizador liberada,770.7
+8,2,Carga de esterilizador liberada,880.7
+6,5,Comisionado,900.8
+9,4,Carga de esterilizador liberada,990.7
+7,1,Comisionado,1050.8
+10,2,Carga de esterilizador liberada,1100.7
+8,2,Comisionado,1200.8
+9,4,Comisionado,1350.8
+10,2,Comisionado,1500.8
