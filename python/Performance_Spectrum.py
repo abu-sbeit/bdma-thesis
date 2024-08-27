@@ -41,8 +41,12 @@ class EventLog:
         print(f'> Found dates in event log ranging from {self.first} to {self.last}.')
         print('> Done, continue with load_frame.')
 
-    def load_frame(self, maxdate=None):
-        if maxdate:
+    def load_frame(self, maxdate=None, mindate=None):
+        if maxdate and mindate:
+            matches_date = [i for i in range(len(self.log)) if mindate <= self.log[i][0]['time:timestamp'] < maxdate]
+        elif mindate:
+            matches_date = [i for i in range(len(self.log)) if self.log[i][0]['time:timestamp'] >= mindate]
+        elif maxdate:
             matches_date = [i for i in range(len(self.log)) if self.log[i][0]['time:timestamp'] < maxdate]
         else:
             matches_date = range(len(self.log))
