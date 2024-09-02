@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:definitions xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de">
+  <bsim:simulationConfiguration startDateTime="2022-03-26T07:00Z[Europe/London]" id="NewSimulationConfiguration_test" processRef="randomLoopProcess" randomSeed="25" processInstances="60">
+    <bsim:startEvent id="sid-ae6032e03df545c3a8d520bd18b4b8c6">
+      <bsim:arrivalRate timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>15.0</bsim:mean>
+          <bsim:standardDeviation>5.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:arrivalRate>
+    </bsim:startEvent>
+    <bsim:Task id="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F" name="Entrada Material Sucio">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>20.7</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E" name="Cargado en carro L+D">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>6.3</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2" name="Carga L+D iniciada">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>74.0</bsim:mean>
+          <bsim:standardDeviation>13.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-0843CAC2-1650-439C-A750-FF8B35823E8A" name="Carga L+D liberada">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>24.0</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="montaje-id" name="Montaje">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>1.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="produccion-montada-id" name="Producción montada">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>15.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-1E2C1856-73F2-4126-A306-F50DE79D3093" name="Composición de cargas">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>90.0</bsim:mean>
+          <bsim:standardDeviation>10.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4" name="Carga de esterilizador liberada">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>20.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:subProcess id="Activity_114d4bv" name="Assembly">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>25.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+  </bsim:simulationConfiguration>
+</bsim:definitions>

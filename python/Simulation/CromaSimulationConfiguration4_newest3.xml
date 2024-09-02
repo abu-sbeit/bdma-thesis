@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:definitions xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de">
+  <bsim:simulationConfiguration startDateTime="2022-03-01T00:00+01:00[Europe/Amsterdam]" id="CromaSimulationConfiguration4_newest3" processRef="sid-f1827831-d6c7-4585-84df-57e0fb21ae2f" randomSeed="50" processInstances="905" endDateTime="2022-03-31T20:11:15+02:00[Europe/Amsterdam]">
+    <bsim:Task id="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2" name="Assign Washing Machine">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>5.0</bsim:mean>
+          <bsim:standardDeviation>2.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E" name="Put on Rack">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>15.0</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F" name="Scan Entered Kit">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:triangularDistribution>
+          <bsim:lower>1.0</bsim:lower>
+          <bsim:peak>11.0</bsim:peak>
+          <bsim:upper>35.0</bsim:upper>
+        </bsim:triangularDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:startEvent id="sid-ae6032e03df545c3a8d520bd18b4b8c6">
+      <bsim:arrivalRate timeUnit="MINUTES">
+        <bsim:triangularDistribution>
+          <bsim:lower>1.4</bsim:lower>
+          <bsim:peak>3.8</bsim:peak>
+          <bsim:upper>9.7</bsim:upper>
+        </bsim:triangularDistribution>
+      </bsim:arrivalRate>
+    </bsim:startEvent>
+    <bsim:Task id="sid-0843CAC2-1650-439C-A750-FF8B35823E8A" name="Free Washing Machine">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>24.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-1E2C1856-73F2-4126-A306-F50DE79D3093" name="Assign Sterilization Machine">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>5.0</bsim:mean>
+          <bsim:standardDeviation>3.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:subProcess id="sid-FBC0C40D-1267-4127-98B5-099F6CA81F2A" name="Assembly&#xA;">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>32.8</bsim:mean>
+          <bsim:standardDeviation>37.9</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:Task id="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4" name="Free Sterilization Machine">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>4.0</bsim:mean>
+          <bsim:standardDeviation>2.0</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:exclusiveGateway id="sid-3E330F2C-8A97-48E0-A286-00BF393FE8A4">
+      <bsim:outgoingSequenceFlow id="sid-9A8EE708-E98C-4711-9983-A0699F6D359A">
+        <bsim:branchingProbability>0.035</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-D22D4311-6F0F-40A0-B6EB-F5A154C3919B">
+        <bsim:branchingProbability>0.965</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:Task id="sid-B97A3A60-5F52-4BF8-81D8-7C005B14880E" name="Instrumental normal">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:exclusiveGateway id="sid-42C1D5E3-1640-43DE-9202-02A848FF6EBF">
+      <bsim:outgoingSequenceFlow id="sid-C077BF20-B542-4E4B-B961-DC05920F06A9">
+        <bsim:branchingProbability>0.01</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-84C04C5C-C3AA-459B-B2D8-432DA6F2BBDE">
+        <bsim:branchingProbability>0.205</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-26F1B2EA-7D10-4125-B745-8B9D6E727784">
+        <bsim:branchingProbability>0.775</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-53D86034-3431-4355-9D11-9AFE3FD2CCD5">
+        <bsim:branchingProbability>0.01</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:Task id="sid-A0DD1C35-20F9-4745-9BFC-0D19B675F9CB" name="Delicado">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-08999B8E-F8FB-442F-AB30-4234EB32CAD0" name="Priones">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-7C10824E-E95D-4F4B-943A-1219699CA6EB" name="Instrumetal Nuevo">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-257780B6-2484-4B65-891F-01BF1C344E5E" name="INTRUM">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:uniformDistribution>
+          <bsim:lower>60.0</bsim:lower>
+          <bsim:upper>75.0</bsim:upper>
+        </bsim:uniformDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:exclusiveGateway id="sid-DABA5A90-E325-45E2-B34A-A87497F7C1A7">
+      <bsim:outgoingSequenceFlow id="sid-85EB3763-9447-40A6-A8B4-E21C78258F9E">
+        <bsim:branchingProbability>0.33</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-E2E663A0-F7E5-4852-9C3B-992E01D04A41">
+        <bsim:branchingProbability>0.0925</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-9B025557-7C6F-4844-ABA3-26AC9FA5FFAB">
+        <bsim:branchingProbability>0.32</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-6ADA635E-35BF-4DFA-BA9C-869A1D1CD098">
+        <bsim:branchingProbability>0.2575</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:Task id="sid-C206A1F2-BFA0-49CE-ADB0-959852A80258" name="GOMAS">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:uniformDistribution>
+          <bsim:lower>60.0</bsim:lower>
+          <bsim:upper>75.0</bsim:upper>
+        </bsim:uniformDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-7431B6F2-819F-4562-9FB3-1EFE00367CD6" name="CONTENE">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:uniformDistribution>
+          <bsim:lower>60.0</bsim:lower>
+          <bsim:upper>75.0</bsim:upper>
+        </bsim:uniformDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-C2BAE868-4117-4EC9-965B-EB16ABA26E8A" name="PRIONES">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:uniformDistribution>
+          <bsim:lower>60.0</bsim:lower>
+          <bsim:upper>75.0</bsim:upper>
+        </bsim:uniformDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:exclusiveGateway id="sid-B570A431-2ECF-4EB5-815C-E6112A434036">
+      <bsim:outgoingSequenceFlow id="sid-04F87270-DA5B-4541-AAA2-03F4752E7C78">
+        <bsim:branchingProbability>0.95</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-F2DBCF75-DEAA-4610-9EB0-63D2C8CD3204">
+        <bsim:branchingProbability>0.05</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:Task id="sid-C8653098-18C8-4F57-A536-449E2B327035" name="Contenedores">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Jupiter" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-C2BCCE32-44D4-45A4-8477-486529D8C2F0" name="Carros">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Jupiter" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:exclusiveGateway id="sid-DF0C8D9E-FF40-494B-B0B3-DB8B97FBD501">
+      <bsim:outgoingSequenceFlow id="sid-6027B053-0C0D-45A9-B244-A5960FB6FD7D">
+        <bsim:branchingProbability>0.025</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-CC325CE3-E596-4A77-B917-8A96A11D92FF">
+        <bsim:branchingProbability>0.085</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-42F76261-2E31-4388-AF16-24DF3875E32B">
+        <bsim:branchingProbability>0.89</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:exclusiveGateway id="sid-901D06D4-B157-43F3-B8F4-0F9B7C4B88B1">
+      <bsim:outgoingSequenceFlow id="sid-27E1F93A-B4BA-4566-8CA3-E0B4627D0B8D">
+        <bsim:branchingProbability>0.72</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+      <bsim:outgoingSequenceFlow id="sid-ECD1CE11-464F-42C2-A0D5-9F403B51CAD4">
+        <bsim:branchingProbability>0.28</bsim:branchingProbability>
+      </bsim:outgoingSequenceFlow>
+    </bsim:exclusiveGateway>
+    <bsim:Task id="sid-9F2A7FEF-9F38-4C79-852A-79A8175E102F" name="Lumen">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>65.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="VPro" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-F03F8225-9329-4ACA-B8EF-063069770E29" name="No Lumen">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="VPro" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="sid-AEEEDE52-75EE-451C-A050-113B207D7DC0" name="Temperatura alta">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>50.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Eagle" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:subProcess id="sid-7662C6F5-E93D-4670-8363-B97B6393969D" name="ABP">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic>
+          <!--bsim:processVariable>RoomRequest.Date</bsim:processVariable-->
+        </bsim:groupingCharacteristic>
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>105.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-7651057F-65C0-4F27-9327-7200F09C5D48" name="ABC">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic>
+          <!--bsim:processVariable>RoomRequest.Date</bsim:processVariable-->
+        </bsim:groupingCharacteristic>
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>100.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-32A02AF7-49F1-4345-AB94-1D3106E79CFE" name="ABG">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic>
+          <!--bsim:processVariable>RoomRequest.Date</bsim:processVariable-->
+        </bsim:groupingCharacteristic>
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>85.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-6F8EEFF5-ED6D-4C32-A4C1-3F11B8F0DC50" name="ABI">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic>
+          <!--bsim:processVariable>RoomRequest.Date</bsim:processVariable-->
+        </bsim:groupingCharacteristic>
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>80.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Autoclave" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-52F50DF5-BB16-4423-A01F-A7AA23164DAC" name="UBAWM">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>3.0</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-AA852AD0-51B8-40AD-97A5-8E743DE32AF3" name="UBPoR">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>14.0</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-82B256C3-8FC5-4685-B0DF-F2A202DB6904" name="UBSEK">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:exponentialDistribution>
+          <bsim:mean>8.0</bsim:mean>
+        </bsim:exponentialDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-1651CC6C-7AFD-4934-A002-AA531404D8FB" name="LBINu">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-0D83198F-6035-4ED1-9509-8F900E9301F8" name="LBP">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>60.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-753DAA11-9226-4CFB-AC42-087706A50491" name="LBD">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>85.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-9B0C5E7A-4F68-4F3E-8329-61264EB22220" name="LBIN">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>70.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Lavadora" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-D36340EF-9827-4AFF-9ACF-C700EECA4208" name="JBCa">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Jupiter" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-275E0B36-1E72-4157-9774-00FA9E85BC27" name="JBC">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Jupiter" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-FF8D48D6-F1AF-4A95-B46E-DE8472DC4F26" name="VPBL">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>65.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="VPro" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-80A68C40-D4DF-41EB-8F99-C1BB01062723" name="VPBNL">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>40.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="VPro" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:subProcess id="sid-EE3AF587-4A20-46E7-B187-242CA12C9B33" name="EBTA">
+      <bsim:batchActivity>
+        <bsim:maxBatchSize>1</bsim:maxBatchSize>
+        <bsim:activationRule>
+          <bsim:minMaxRule minInstances="1" minTimeout="PT0S" maxInstances="30" maxTimeout="PT30M" />
+        </bsim:activationRule>
+        <bsim:groupingCharacteristic />
+      </bsim:batchActivity>
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:constantDistribution>
+          <bsim:constantValue>50.0</bsim:constantValue>
+        </bsim:constantDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Eagle" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+    <bsim:Task id="montaje-id" name="Montaje">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>0.25</bsim:mean>
+          <bsim:standardDeviation>0.5</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:Task id="produccion-montada-id" name="Producción montada">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:normalDistribution>
+          <bsim:mean>15.3</bsim:mean>
+          <bsim:standardDeviation>20.4</bsim:standardDeviation>
+        </bsim:normalDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:Task>
+    <bsim:subProcess id="Activity_0n8tvc1" name="assemply">
+      <bsim:duration timeUnit="MINUTES">
+        <bsim:poissonDistribution>
+          <bsim:mean>16.0</bsim:mean>
+        </bsim:poissonDistribution>
+      </bsim:duration>
+      <bsim:resources>
+        <bsim:resource id="Usuario" amount="1" />
+      </bsim:resources>
+    </bsim:subProcess>
+  </bsim:simulationConfiguration>
+</bsim:definitions>

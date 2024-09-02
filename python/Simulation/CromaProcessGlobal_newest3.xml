@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bsim:globalConfiguration xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel" targetNamespace="http://www.hpi.de" id="CromaProcessGlobal_newest3">
+  <bsim:resourceData>
+    <bsim:dynamicResource id="Usuario" defaultQuantity="15" defaultCost="50.0" defaultTimeUnit="HOURS">
+      <bsim:instance name="CLE" timetableId="ShiftAWD" />
+      <bsim:instance name="CM" timetableId="ShiftBWD" />
+      <bsim:instance name="DF" timetableId="ShiftBWD" />
+      <bsim:instance name="EH" timetableId="ShiftBWD" />
+      <bsim:instance name="ER" timetableId="ShiftCWD" />
+      <bsim:instance name="LI" timetableId="ShiftDWD" />
+      <bsim:instance name="MAA" timetableId="ShiftDWD" />
+      <bsim:instance name="MCE" timetableId="ShiftDWD" />
+      <bsim:instance name="MGP" timetableId="ShiftEWD" />
+      <bsim:instance name="ML" timetableId="ShiftEWD" />
+      <bsim:instance name="MMF" timetableId="ShiftEWD" />
+      <bsim:instance name="MR" timetableId="ShiftDWD" />
+      <bsim:instance name="PG" timetableId="ShiftEWD" />
+    </bsim:dynamicResource>
+    <bsim:dynamicResource id="Lavadora" defaultQuantity="4" defaultCost="0.0" defaultTimeUnit="SECONDS" defaultTimetableId="Machines">
+      <bsim:instance name="L1" />
+      <bsim:instance name="L2" />
+      <bsim:instance name="L3" />
+      <bsim:instance name="&lt;enter name&gt;" />
+    </bsim:dynamicResource>
+    <bsim:dynamicResource id="Autoclave" defaultQuantity="4" defaultCost="0.0" defaultTimeUnit="SECONDS" defaultTimetableId="Machines">
+      <bsim:instance name="A1" />
+      <bsim:instance name="A2" />
+      <bsim:instance name="A3" />
+      <bsim:instance name="&lt;enter name&gt;" />
+    </bsim:dynamicResource>
+    <bsim:dynamicResource id="Jupiter" defaultQuantity="1" defaultCost="0.0" defaultTimeUnit="SECONDS" defaultTimetableId="Machines">
+      <bsim:instance name="Unnamed" />
+    </bsim:dynamicResource>
+    <bsim:dynamicResource id="VPro" defaultQuantity="1" defaultCost="0.0" defaultTimeUnit="SECONDS" defaultTimetableId="Machines">
+      <bsim:instance name="Unnamed" />
+    </bsim:dynamicResource>
+    <bsim:dynamicResource id="Eagle" defaultQuantity="1" defaultCost="0.0" defaultTimeUnit="SECONDS" defaultTimetableId="Machines">
+      <bsim:instance name="Unnamed" />
+    </bsim:dynamicResource>
+  </bsim:resourceData>
+  <bsim:timetables>
+    <bsim:timetable id="ShiftAWE">
+      <bsim:timetableItem from="SATURDAY" to="SATURDAY" beginTime="08:00" endTime="15:00" />
+      <bsim:timetableItem from="SUNDAY" to="SUNDAY" beginTime="08:00" endTime="15:00" />
+    </bsim:timetable>
+    <bsim:timetable id="Machines">
+      <bsim:timetableItem from="MONDAY" to="TUESDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="TUESDAY" to="WEDNESDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="WEDNESDAY" to="THURSDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="THURSDAY" to="FRIDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="FRIDAY" to="SATURDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="SATURDAY" to="SUNDAY" beginTime="00:00" endTime="00:00" />
+      <bsim:timetableItem from="SUNDAY" to="MONDAY" beginTime="00:00" endTime="00:00" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftBWE">
+      <bsim:timetableItem from="SATURDAY" to="SATURDAY" beginTime="15:00" endTime="00:00" />
+      <bsim:timetableItem from="SATURDAY" to="SUNDAY" beginTime="15:00" endTime="00:00" />
+      <bsim:timetableItem from="SUNDAY" to="MONDAY" beginTime="15:00" endTime="00:00" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftAWD">
+      <bsim:timetableItem from="MONDAY" to="MONDAY" beginTime="07:00" endTime="14:30" />
+      <bsim:timetableItem from="TUESDAY" to="TUESDAY" beginTime="07:00" endTime="14:30" />
+      <bsim:timetableItem from="WEDNESDAY" to="WEDNESDAY" beginTime="07:00" endTime="14:30" />
+      <bsim:timetableItem from="THURSDAY" to="THURSDAY" beginTime="07:00" endTime="14:30" />
+      <bsim:timetableItem from="FRIDAY" to="FRIDAY" beginTime="07:00" endTime="14:30" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftBWD">
+      <bsim:timetableItem from="MONDAY" to="MONDAY" beginTime="08:00" endTime="14:30" />
+      <bsim:timetableItem from="TUESDAY" to="TUESDAY" beginTime="08:00" endTime="14:30" />
+      <bsim:timetableItem from="WEDNESDAY" to="WEDNESDAY" beginTime="08:00" endTime="14:30" />
+      <bsim:timetableItem from="THURSDAY" to="THURSDAY" beginTime="08:00" endTime="14:30" />
+      <bsim:timetableItem from="FRIDAY" to="FRIDAY" beginTime="08:00" endTime="14:30" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftCWD">
+      <bsim:timetableItem from="MONDAY" to="MONDAY" beginTime="10:00" endTime="17:30" />
+      <bsim:timetableItem from="TUESDAY" to="TUESDAY" beginTime="10:00" endTime="17:30" />
+      <bsim:timetableItem from="WEDNESDAY" to="WEDNESDAY" beginTime="10:00" endTime="17:30" />
+      <bsim:timetableItem from="THURSDAY" to="THURSDAY" beginTime="10:00" endTime="17:30" />
+      <bsim:timetableItem from="FRIDAY" to="FRIDAY" beginTime="10:00" endTime="17:30" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftDWD">
+      <bsim:timetableItem from="MONDAY" to="MONDAY" beginTime="12:00" endTime="19:30" />
+      <bsim:timetableItem from="TUESDAY" to="TUESDAY" beginTime="12:00" endTime="19:30" />
+      <bsim:timetableItem from="WEDNESDAY" to="WEDNESDAY" beginTime="12:00" endTime="19:30" />
+      <bsim:timetableItem from="THURSDAY" to="THURSDAY" beginTime="12:00" endTime="19:30" />
+      <bsim:timetableItem from="FRIDAY" to="FRIDAY" beginTime="12:00" endTime="19:30" />
+    </bsim:timetable>
+    <bsim:timetable id="ShiftEWD">
+      <bsim:timetableItem from="MONDAY" to="MONDAY" beginTime="14:30" endTime="22:00" />
+      <bsim:timetableItem from="TUESDAY" to="TUESDAY" beginTime="14:30" endTime="22:00" />
+      <bsim:timetableItem from="WEDNESDAY" to="WEDNESDAY" beginTime="14:30" endTime="22:00" />
+      <bsim:timetableItem from="THURSDAY" to="THURSDAY" beginTime="14:30" endTime="22:00" />
+      <bsim:timetableItem from="FRIDAY" to="FRIDAY" beginTime="14:30" endTime="22:00" />
+    </bsim:timetable>
+  </bsim:timetables>
+  <bsim:zoneOffset>+01:00</bsim:zoneOffset>
+  <bsim:randomSeed>1</bsim:randomSeed>
+</bsim:globalConfiguration>

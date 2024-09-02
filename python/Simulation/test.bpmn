@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.23.0">
+  <bpmn:collaboration id="Collaboration_071ff5a">
+    <bpmn:participant id="sid-a2a02b29943441bab0ab18a81ca5a8e2" name="Croma" processRef="randomLoopProcess" />
+  </bpmn:collaboration>
+  <bpmn:process id="randomLoopProcess" name="Random Loop Process" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_07o7myt">
+      <bpmn:lane id="sid-9cf49795ff054e43a3a9db2a02e8bda2" name="Usuario">
+        <bpmn:flowNodeRef>sid-ae6032e03df545c3a8d520bd18b4b8c6</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-AC68D104-4A40-4D25-A104-EF41EB1745A2</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-0843CAC2-1650-439C-A750-FF8B35823E8A</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-3b6c675afc91498bbde17067727c8c3a</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>sid-1E2C1856-73F2-4126-A306-F50DE79D3093</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>montaje-id</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>produccion-montada-id</bpmn:flowNodeRef>
+        <bpmn:childLaneSet id="LaneSet_1voiiev" />
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="sid-ae6032e03df545c3a8d520bd18b4b8c6" name="Contaminated Kits">
+      <bpmn:outgoing>Flow_0nwlr27</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F" name="Entrada Material Sucio">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="5" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0nwlr27</bpmn:incoming>
+      <bpmn:outgoing>Flow_0p7lg3k</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E" name="Cargado en carro L+D">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="5" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0p7lg3k</bpmn:incoming>
+      <bpmn:outgoing>Flow_1x9yje7</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2" name="Carga L+D iniciada">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="6" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_1x9yje7</bpmn:incoming>
+      <bpmn:outgoing>Flow_0uk0mv0</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="sid-0843CAC2-1650-439C-A750-FF8B35823E8A" name="Carga L+D liberada">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="6" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0uk0mv0</bpmn:incoming>
+      <bpmn:outgoing>Flow_1dowotd</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0nwlr27" sourceRef="sid-ae6032e03df545c3a8d520bd18b4b8c6" targetRef="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F" />
+    <bpmn:sequenceFlow id="Flow_0p7lg3k" sourceRef="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F" targetRef="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E" />
+    <bpmn:sequenceFlow id="Flow_1x9yje7" sourceRef="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E" targetRef="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2" />
+    <bpmn:sequenceFlow id="Flow_0uk0mv0" sourceRef="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2" targetRef="sid-0843CAC2-1650-439C-A750-FF8B35823E8A" />
+    <bpmn:sequenceFlow id="Flow_1dowotd" sourceRef="sid-0843CAC2-1650-439C-A750-FF8B35823E8A" targetRef="montaje-id" />
+    <bpmn:sequenceFlow id="sid-24F20841-1A1A-45B4-9D4D-73BB3EEF217F" name="" sourceRef="sid-1E2C1856-73F2-4126-A306-F50DE79D3093" targetRef="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4" />
+    <bpmn:sequenceFlow id="spr-ed4d3a03765c4797a71bd24586ff67a4" name="" sourceRef="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4" targetRef="sid-3b6c675afc91498bbde17067727c8c3a" />
+    <bpmn:endEvent id="sid-3b6c675afc91498bbde17067727c8c3a" name="Sterilized Kits">
+      <bpmn:incoming>spr-ed4d3a03765c4797a71bd24586ff67a4</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4" name="Carga de esterilizador liberada">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="10" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>sid-24F20841-1A1A-45B4-9D4D-73BB3EEF217F</bpmn:incoming>
+      <bpmn:outgoing>spr-ed4d3a03765c4797a71bd24586ff67a4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="sid-1E2C1856-73F2-4126-A306-F50DE79D3093" name="Composición de cargas">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property name="maxBatchSize" value="10" />
+          <camunda:property name="executionType" value="parallel" />
+          <camunda:property name="groupingCharacteristic" />
+          <camunda:property name="activationRule" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>Flow_0mdv6qq</bpmn:incoming>
+      <bpmn:outgoing>sid-24F20841-1A1A-45B4-9D4D-73BB3EEF217F</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="montaje-id" name="Montaje">
+      <bpmn:incoming>Flow_1dowotd</bpmn:incoming>
+      <bpmn:outgoing>Flow_18yp9zx</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_18yp9zx" sourceRef="montaje-id" targetRef="produccion-montada-id" />
+    <bpmn:task id="produccion-montada-id" name="Producción montada">
+      <bpmn:incoming>Flow_18yp9zx</bpmn:incoming>
+      <bpmn:outgoing>Flow_0mdv6qq</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_0mdv6qq" sourceRef="produccion-montada-id" targetRef="sid-1E2C1856-73F2-4126-A306-F50DE79D3093" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_071ff5a">
+      <bpmndi:BPMNShape id="sid-a2a02b29943441bab0ab18a81ca5a8e2_gui" bpmnElement="sid-a2a02b29943441bab0ab18a81ca5a8e2" isHorizontal="true">
+        <dc:Bounds x="160" y="50" width="1740" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-9cf49795ff054e43a3a9db2a02e8bda2_gui" bpmnElement="sid-9cf49795ff054e43a3a9db2a02e8bda2" isHorizontal="true">
+        <dc:Bounds x="190" y="50" width="1710" height="260" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-ae6032e03df545c3a8d520bd18b4b8c6_gui" bpmnElement="sid-ae6032e03df545c3a8d520bd18b4b8c6">
+        <dc:Bounds x="255" y="175" width="30" height="30" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="225" y="207" width="90" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F_gui" bpmnElement="sid-5CBD3FF6-7B24-4CF2-8A46-F93DC969E27F">
+        <dc:Bounds x="369" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="374.4857177734375" y="182" width="91.02856445312494" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E_gui" bpmnElement="sid-7EA6B7E4-DF8E-409C-BA8B-67277BC5B31E">
+        <dc:Bounds x="529" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="547.5999984741211" y="182" width="64.80000305175781" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2_gui" bpmnElement="sid-AC68D104-4A40-4D25-A104-EF41EB1745A2">
+        <dc:Bounds x="689" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="696.4142913818359" y="176" width="87.17141723632812" height="24" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-0843CAC2-1650-439C-A750-FF8B35823E8A_gui" bpmnElement="sid-0843CAC2-1650-439C-A750-FF8B35823E8A">
+        <dc:Bounds x="849" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="862.9714279174805" y="176" width="74.05714416503906" height="24" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-3b6c675afc91498bbde17067727c8c3a_gui" bpmnElement="sid-3b6c675afc91498bbde17067727c8c3a">
+        <dc:Bounds x="1825" y="177" width="30" height="30" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1805" y="207" width="67" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4_gui" bpmnElement="sid-B6CA039C-A65D-4FB9-A43D-46FA7BADDBC4">
+        <dc:Bounds x="1659" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1664.8714294433594" y="176" width="90.25714111328125" height="24" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="sid-1E2C1856-73F2-4126-A306-F50DE79D3093_gui" bpmnElement="sid-1E2C1856-73F2-4126-A306-F50DE79D3093">
+        <dc:Bounds x="1489" y="150" width="102" height="80" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1508.3714294433594" y="170" width="63.25714111328125" height="36" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_00g1e8i_di" bpmnElement="montaje-id">
+        <dc:Bounds x="1020" y="150" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0s3o2x3_di" bpmnElement="produccion-montada-id">
+        <dc:Bounds x="1240" y="150" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0nwlr27_di" bpmnElement="Flow_0nwlr27">
+        <di:waypoint x="285" y="190" />
+        <di:waypoint x="369" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0p7lg3k_di" bpmnElement="Flow_0p7lg3k">
+        <di:waypoint x="471" y="190" />
+        <di:waypoint x="529" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1x9yje7_di" bpmnElement="Flow_1x9yje7">
+        <di:waypoint x="631" y="190" />
+        <di:waypoint x="689" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0uk0mv0_di" bpmnElement="Flow_0uk0mv0">
+        <di:waypoint x="791" y="190" />
+        <di:waypoint x="849" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1dowotd_di" bpmnElement="Flow_1dowotd">
+        <di:waypoint x="951" y="190" />
+        <di:waypoint x="1020" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="sid-24F20841-1A1A-45B4-9D4D-73BB3EEF217F_gui" bpmnElement="sid-24F20841-1A1A-45B4-9D4D-73BB3EEF217F">
+        <di:waypoint x="1591" y="190" />
+        <di:waypoint x="1659" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="spr-ed4d3a03765c4797a71bd24586ff67a4_gui" bpmnElement="spr-ed4d3a03765c4797a71bd24586ff67a4">
+        <di:waypoint x="1761" y="190" />
+        <di:waypoint x="1825" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_18yp9zx_di" bpmnElement="Flow_18yp9zx">
+        <di:waypoint x="1120" y="190" />
+        <di:waypoint x="1240" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0mdv6qq_di" bpmnElement="Flow_0mdv6qq">
+        <di:waypoint x="1340" y="190" />
+        <di:waypoint x="1489" y="190" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
