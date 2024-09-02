@@ -1,0 +1,1161 @@
+BATCH REPORT
+Reference unit: SECONDS
+Please note: Duration and cost of batch activity execution can be found in output file of statslogger plug-in.
+
+=== PROCESS randomLoopProcess ===
+== Node 2
+
+-- BatchCluster_randomLoopProcess_2#1
+Maximum waiting time: 3600.0
+Average waiting time: 2182.2
+Process instances: [1, 2, 3, 4, 5] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#2
+Maximum waiting time: 1353.0
+Average waiting time: 925.5
+Process instances: [6, 7] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#3
+Maximum waiting time: 87.0
+Average waiting time: 87.0
+Process instances: [8] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#4
+Maximum waiting time: 1087.0
+Average waiting time: 798.0
+Process instances: [9, 10] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#5
+Maximum waiting time: 255.0
+Average waiting time: 255.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#6
+Maximum waiting time: 191.0
+Average waiting time: 191.0
+Process instances: [12] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#7
+Maximum waiting time: 103.0
+Average waiting time: 103.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#8
+Maximum waiting time: 89.0
+Average waiting time: 89.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#9
+Maximum waiting time: 198.0
+Average waiting time: 198.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#10
+Maximum waiting time: 677.0
+Average waiting time: 462.5
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#11
+Maximum waiting time: 97.0
+Average waiting time: 97.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#12
+Maximum waiting time: 371.0
+Average waiting time: 371.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#13
+Maximum waiting time: 22.0
+Average waiting time: 22.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#14
+Maximum waiting time: 133.0
+Average waiting time: 133.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#16
+Maximum waiting time: 159.0
+Average waiting time: 159.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#17
+Maximum waiting time: 239.0
+Average waiting time: 239.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#18
+Maximum waiting time: 474.0
+Average waiting time: 474.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#19
+Maximum waiting time: 46.0
+Average waiting time: 46.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#20
+Maximum waiting time: 96.0
+Average waiting time: 96.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#21
+Maximum waiting time: 2.0
+Average waiting time: 2.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#22
+Maximum waiting time: 346.0
+Average waiting time: 346.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#23
+Maximum waiting time: 679.0
+Average waiting time: 433.5
+Process instances: [30, 31] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#24
+Maximum waiting time: 57441.0
+Average waiting time: 55799.8
+Process instances: [32, 33, 34, 35, 36] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#25
+Maximum waiting time: 53266.0
+Average waiting time: 51064.6
+Process instances: [37, 38, 39, 40, 41] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#26
+Maximum waiting time: 48096.0
+Average waiting time: 46279.0
+Process instances: [42, 43, 44, 45, 46] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#27
+Maximum waiting time: 43369.0
+Average waiting time: 41534.6
+Process instances: [47, 48, 49, 50, 51] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#28
+Maximum waiting time: 38689.0
+Average waiting time: 37144.4
+Process instances: [52, 53, 54, 55, 56] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_2#29
+Maximum waiting time: 34726.0
+Average waiting time: 32927.5
+Process instances: [57, 58, 59, 60] (4 process instance(s))
+
+Maximum waiting time of all activities: 57441.0
+Average waiting time of all activities: 9395.158620689655
+== Node 3
+
+-- BatchCluster_randomLoopProcess_3#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [1, 2, 3, 4, 5] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#3
+Maximum waiting time: 650.0
+Average waiting time: 650.0
+Process instances: [8] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [9, 10] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#5
+Maximum waiting time: 1.0
+Average waiting time: 1.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [12] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#7
+Maximum waiting time: 303.0
+Average waiting time: 303.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#8
+Maximum waiting time: 642.0
+Average waiting time: 642.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#9
+Maximum waiting time: 39.0
+Average waiting time: 39.0
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#10
+Maximum waiting time: 222.0
+Average waiting time: 222.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#11
+Maximum waiting time: 205.0
+Average waiting time: 205.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#12
+Maximum waiting time: 141.0
+Average waiting time: 141.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#16
+Maximum waiting time: 164.0
+Average waiting time: 164.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#17
+Maximum waiting time: 60.0
+Average waiting time: 60.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#18
+Maximum waiting time: 71.0
+Average waiting time: 71.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#19
+Maximum waiting time: 26.0
+Average waiting time: 26.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#20
+Maximum waiting time: 50.0
+Average waiting time: 50.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#21
+Maximum waiting time: 123.0
+Average waiting time: 123.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#22
+Maximum waiting time: 615.0
+Average waiting time: 615.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#23
+Maximum waiting time: 507.0
+Average waiting time: 507.0
+Process instances: [30, 31] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [47, 48, 49, 50, 51] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37, 38, 39, 40, 41] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [52, 53, 54, 55, 56] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57, 58, 59, 60] (4 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [42, 43, 44, 45, 46] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_3#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 33, 34, 35, 36] (5 process instance(s))
+
+Maximum waiting time of all activities: 650.0
+Average waiting time of all activities: 131.6896551724138
+== Node 4
+
+-- BatchCluster_randomLoopProcess_4#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [1, 2, 3, 4, 5] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [8] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [9, 10] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [12] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#7
+Maximum waiting time: 782.0
+Average waiting time: 782.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#8
+Maximum waiting time: 407.0
+Average waiting time: 407.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#9
+Maximum waiting time: 72.0
+Average waiting time: 72.0
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#11
+Maximum waiting time: 540.0
+Average waiting time: 540.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#16
+Maximum waiting time: 245.0
+Average waiting time: 245.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#17
+Maximum waiting time: 269.0
+Average waiting time: 269.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#18
+Maximum waiting time: 34.0
+Average waiting time: 34.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#19
+Maximum waiting time: 131.0
+Average waiting time: 131.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#20
+Maximum waiting time: 82.0
+Average waiting time: 82.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#21
+Maximum waiting time: 98.0
+Average waiting time: 98.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#22
+Maximum waiting time: 406.0
+Average waiting time: 406.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [30, 31] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [47, 48, 49, 50, 51] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37, 38, 39, 40, 41] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [52, 53, 54, 55, 56] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57, 58, 59, 60] (4 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [42, 43, 44, 45, 46] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_4#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 33, 34, 35, 36] (5 process instance(s))
+
+Maximum waiting time of all activities: 782.0
+Average waiting time of all activities: 105.72413793103446
+== Node 5
+
+-- BatchCluster_randomLoopProcess_5#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [1, 2, 3, 4, 5] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#3
+Maximum waiting time: 352.0
+Average waiting time: 352.0
+Process instances: [8] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#4
+Maximum waiting time: 1067.0
+Average waiting time: 1067.0
+Process instances: [9, 10] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#5
+Maximum waiting time: 217.0
+Average waiting time: 217.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#6
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [12] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#12
+Maximum waiting time: 563.0
+Average waiting time: 563.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#13
+Maximum waiting time: 297.0
+Average waiting time: 297.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#14
+Maximum waiting time: 67.0
+Average waiting time: 67.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#15
+Maximum waiting time: 395.0
+Average waiting time: 395.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#16
+Maximum waiting time: 44.0
+Average waiting time: 44.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#17
+Maximum waiting time: 250.0
+Average waiting time: 250.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [30, 31] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37, 38, 39, 40, 41] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [47, 48, 49, 50, 51] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [42, 43, 44, 45, 46] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#26
+Maximum waiting time: 9.0
+Average waiting time: 9.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [52, 53, 54, 55, 56] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 33, 34, 35, 36] (5 process instance(s))
+
+-- BatchCluster_randomLoopProcess_5#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57, 58, 59, 60] (4 process instance(s))
+
+Maximum waiting time of all activities: 1067.0
+Average waiting time of all activities: 113.00000000000001
+== Node 14
+
+-- BatchCluster_randomLoopProcess_14#1
+Maximum waiting time: 209.0
+Average waiting time: 209.0
+Process instances: [5] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#2
+Maximum waiting time: 2.0
+Average waiting time: 2.0
+Process instances: [4] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3, 1] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#4
+Maximum waiting time: 28.0
+Average waiting time: 28.0
+Process instances: [2] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [7] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#7
+Maximum waiting time: 909.0
+Average waiting time: 637.0
+Process instances: [12, 8] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#8
+Maximum waiting time: 87.0
+Average waiting time: 66.5
+Process instances: [9, 10] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#9
+Maximum waiting time: 60.0
+Average waiting time: 60.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#10
+Maximum waiting time: 158.0
+Average waiting time: 158.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#11
+Maximum waiting time: 181.0
+Average waiting time: 181.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#12
+Maximum waiting time: 71.0
+Average waiting time: 71.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#13
+Maximum waiting time: 257.0
+Average waiting time: 257.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#14
+Maximum waiting time: 44.0
+Average waiting time: 44.0
+Process instances: [16] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [17] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#20
+Maximum waiting time: 9.0
+Average waiting time: 9.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#22
+Maximum waiting time: 210.0
+Average waiting time: 210.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#23
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [38] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [41] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [30] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [39] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [40] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [31] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [46, 44] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [42] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [54] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [55] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [48] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [52, 53] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 47] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [33] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [50] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [51] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [36] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [45] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [34] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [49] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_14#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [59] (1 process instance(s))
+
+Maximum waiting time of all activities: 909.0
+Average waiting time of all activities: 36.08333333333333
+== Node 15
+
+-- BatchCluster_randomLoopProcess_15#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [5] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3, 1] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#3
+Maximum waiting time: 47.0
+Average waiting time: 47.0
+Process instances: [4] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#4
+Maximum waiting time: 391.0
+Average waiting time: 391.0
+Process instances: [2] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#5
+Maximum waiting time: 99.0
+Average waiting time: 99.0
+Process instances: [6] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#6
+Maximum waiting time: 461.0
+Average waiting time: 461.0
+Process instances: [7] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [8] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [9] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#9
+Maximum waiting time: 109.0
+Average waiting time: 109.0
+Process instances: [12] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [10] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [13] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [11] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#13
+Maximum waiting time: 43.0
+Average waiting time: 43.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#14
+Maximum waiting time: 45.0
+Average waiting time: 45.0
+Process instances: [18] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#15
+Maximum waiting time: 315.0
+Average waiting time: 315.0
+Process instances: [14] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#16
+Maximum waiting time: 60.0
+Average waiting time: 60.0
+Process instances: [16] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#17
+Maximum waiting time: 30.0
+Average waiting time: 30.0
+Process instances: [17] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#18
+Maximum waiting time: 147.0
+Average waiting time: 147.0
+Process instances: [19] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#19
+Maximum waiting time: 60.0
+Average waiting time: 60.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#20
+Maximum waiting time: 204.0
+Average waiting time: 204.0
+Process instances: [21] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#21
+Maximum waiting time: 452.0
+Average waiting time: 452.0
+Process instances: [22] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#22
+Maximum waiting time: 57766.0
+Average waiting time: 57766.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [24] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [26] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#27
+Maximum waiting time: 32.0
+Average waiting time: 32.0
+Process instances: [27] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [41] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [39] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [38] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [30] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#33
+Maximum waiting time: 29.0
+Average waiting time: 29.0
+Process instances: [31] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#34
+Maximum waiting time: 110.0
+Average waiting time: 110.0
+Process instances: [40] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#36
+Maximum waiting time: 21.0
+Average waiting time: 10.5
+Process instances: [46, 44] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#37
+Maximum waiting time: 2.0
+Average waiting time: 2.0
+Process instances: [42] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [45] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [54] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#40
+Maximum waiting time: 15.0
+Average waiting time: 15.0
+Process instances: [48] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#41
+Maximum waiting time: 120.0
+Average waiting time: 70.5
+Process instances: [52, 53] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#42
+Maximum waiting time: 105.0
+Average waiting time: 105.0
+Process instances: [55] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 47] (2 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [51] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [33] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [50] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#49
+Maximum waiting time: 18.0
+Average waiting time: 18.0
+Process instances: [49] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#50
+Maximum waiting time: 110.0
+Average waiting time: 110.0
+Process instances: [34] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#51
+Maximum waiting time: 116.0
+Average waiting time: 116.0
+Process instances: [29] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#52
+Maximum waiting time: 73.0
+Average waiting time: 73.0
+Process instances: [57] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#53
+Maximum waiting time: 459.0
+Average waiting time: 459.0
+Process instances: [36] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#54
+Maximum waiting time: 170.0
+Average waiting time: 170.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#55
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_randomLoopProcess_15#56
+Maximum waiting time: 482.0
+Average waiting time: 482.0
+Process instances: [59] (1 process instance(s))
+
+Maximum waiting time of all activities: 57766.0
+Average waiting time of all activities: 1107.982142857143
+
+

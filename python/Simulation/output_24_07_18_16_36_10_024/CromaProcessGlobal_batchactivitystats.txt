@@ -1,0 +1,5003 @@
+BATCH REPORT
+Reference unit: SECONDS
+Please note: Duration and cost of batch activity execution can be found in output file of statslogger plug-in.
+
+=== PROCESS sid-f1827831-d6c7-4585-84df-57e0fb21ae2f ===
+== Node 32
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#2
+Maximum waiting time: 36.0
+Average waiting time: 36.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#3
+Maximum waiting time: 2.0
+Average waiting time: 2.0
+Process instances: [6, 7, 42] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#4
+Maximum waiting time: 57.0
+Average waiting time: 57.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#5
+Maximum waiting time: 35.0
+Average waiting time: 35.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#6
+Maximum waiting time: 518.0
+Average waiting time: 518.0
+Process instances: [44, 14, 52, 45, 36, 74] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#7
+Maximum waiting time: 364.0
+Average waiting time: 364.0
+Process instances: [50, 34, 1, 8, 46, 2] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#8
+Maximum waiting time: 347.0
+Average waiting time: 347.0
+Process instances: [9, 47, 20, 13, 51, 4] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#9
+Maximum waiting time: 112.0
+Average waiting time: 112.0
+Process instances: [48, 10, 64, 49, 54, 55] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#10
+Maximum waiting time: 112.0
+Average waiting time: 112.0
+Process instances: [5, 21, 15, 31, 26, 59] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#11
+Maximum waiting time: 112.0
+Average waiting time: 108.33333333333333
+Process instances: [65, 11, 53, 63, 18, 19] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#12
+Maximum waiting time: 90.0
+Average waiting time: 90.0
+Process instances: [71, 78, 72, 75, 27, 37] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#13
+Maximum waiting time: 90.0
+Average waiting time: 90.0
+Process instances: [16, 41, 17, 22, 12] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 83, 82, 85, 70, 84] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#16
+Maximum waiting time: 47.0
+Average waiting time: 47.0
+Process instances: [33, 86, 76, 30, 24] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#17
+Maximum waiting time: 168.0
+Average waiting time: 168.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#18
+Maximum waiting time: 63.0
+Average waiting time: 63.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#19
+Maximum waiting time: 72.0
+Average waiting time: 72.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#20
+Maximum waiting time: 59.0
+Average waiting time: 59.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#21
+Maximum waiting time: 14.0
+Average waiting time: 14.0
+Process instances: [88, 91, 94, 92, 96] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#22
+Maximum waiting time: 117.0
+Average waiting time: 117.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#23
+Maximum waiting time: 83.0
+Average waiting time: 78.0
+Process instances: [98, 100] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#24
+Maximum waiting time: 39.0
+Average waiting time: 39.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101, 104, 95, 103, 107] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102, 106, 108] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#32
+Maximum waiting time: 50.0
+Average waiting time: 50.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111, 112, 113] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114, 118, 120] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131, 130] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129, 133] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140, 136] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#51
+Maximum waiting time: 211.0
+Average waiting time: 211.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#56
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147, 155] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [156, 161, 162] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#66
+Maximum waiting time: 79.0
+Average waiting time: 79.0
+Process instances: [158] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#67
+Maximum waiting time: 191.0
+Average waiting time: 120.5
+Process instances: [166, 163] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#73
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#87
+Maximum waiting time: 26.0
+Average waiting time: 18.0
+Process instances: [73, 61, 62] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#88
+Maximum waiting time: 253.0
+Average waiting time: 253.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#89
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 60, 25, 66, 69, 80] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_32#90
+Maximum waiting time: 291.0
+Average waiting time: 270.5
+Process instances: [57, 77, 67, 68, 79, 81] (6 process instance(s))
+
+Maximum waiting time of all activities: 518.0
+Average waiting time of all activities: 39.22592592592594
+== Node 33
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#1
+Maximum waiting time: 24.0
+Average waiting time: 24.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7, 42] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#5
+Maximum waiting time: 378.0
+Average waiting time: 378.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [50, 34, 1, 44, 8, 14, 46, 52, 2, 45] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#7
+Maximum waiting time: 7.0
+Average waiting time: 7.0
+Process instances: [5, 36, 21, 74, 15, 31, 26, 59] (8 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [65, 11, 53, 63, 18, 19] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [48, 10, 64, 49, 54, 55] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [71, 78, 72, 75, 27, 37] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [16, 41, 17, 22, 12] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [9, 47, 20, 13, 51, 4] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 83, 82, 85, 70, 84] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [33, 86, 76, 30, 24] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#17
+Maximum waiting time: 31.0
+Average waiting time: 31.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88, 91, 94, 92, 96] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#21
+Maximum waiting time: 9.0
+Average waiting time: 9.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98, 100] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101, 104, 95, 103, 107] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102, 106, 108] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111, 112, 113] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114, 118, 120] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131, 130] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129, 133] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140, 136] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#56
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147, 155] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [156, 161, 162, 158] (4 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166, 163] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#73
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73, 61, 62] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 60, 25, 66, 69, 80] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_33#88
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57, 77, 67, 68, 79, 81] (6 process instance(s))
+
+Maximum waiting time of all activities: 378.0
+Average waiting time of all activities: 5.102272727272723
+== Node 34
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#1
+Maximum waiting time: 144.0
+Average waiting time: 144.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7, 42] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#5
+Maximum waiting time: 221.0
+Average waiting time: 221.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [50, 34, 1, 44, 8, 14, 46, 52, 2, 45, 5, 36, 21, 74, 15, 31, 26, 59] (18 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [65, 11, 53, 63, 18, 19] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [48, 10, 64, 49, 54, 55] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [71, 78, 72, 75, 27, 37] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [16, 41, 17, 22, 12] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [9, 47, 20, 13, 51, 4] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 83, 82, 85, 70, 84] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [33, 86, 76, 30, 24] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#16
+Maximum waiting time: 97.0
+Average waiting time: 97.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88, 91, 94, 92, 96] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#20
+Maximum waiting time: 49.0
+Average waiting time: 49.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98, 100] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101, 104, 95, 103, 107] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102, 106, 108] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111, 112, 113] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114, 118, 120] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131, 130] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129, 133] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140, 136] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#53
+Maximum waiting time: 12.0
+Average waiting time: 12.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#56
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147, 155] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#63
+Maximum waiting time: 248.0
+Average waiting time: 210.0
+Process instances: [156, 161, 162, 158] (4 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166, 163] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#65
+Maximum waiting time: 7.0
+Average waiting time: 7.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#73
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73, 61, 62] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 60, 25, 66, 69, 80] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_34#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57, 77, 67, 68, 79, 81] (6 process instance(s))
+
+Maximum waiting time of all activities: 248.0
+Average waiting time of all activities: 8.50574712643678
+== Node 4
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [39] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#2
+Maximum waiting time: 689.0
+Average waiting time: 608.9
+Process instances: [53, 64, 54, 55, 21, 74, 31, 26, 59, 58] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#3
+Maximum waiting time: 3947.0
+Average waiting time: 3857.2
+Process instances: [78, 75, 27, 16, 41, 17, 50, 34, 2, 20] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#4
+Maximum waiting time: 3556.0
+Average waiting time: 1536.6666666666667
+Process instances: [51, 33, 30] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98, 100] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#8
+Maximum waiting time: 541.0
+Average waiting time: 541.0
+Process instances: [95, 107] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#9
+Maximum waiting time: 923.0
+Average waiting time: 489.66666666666663
+Process instances: [115, 106, 110] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#10
+Maximum waiting time: 173.0
+Average waiting time: 173.0
+Process instances: [111] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#11
+Maximum waiting time: 14.0
+Average waiting time: 14.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#15
+Maximum waiting time: 200.0
+Average waiting time: 100.5
+Process instances: [124, 126] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#17
+Maximum waiting time: 1633.0
+Average waiting time: 1633.0
+Process instances: [133] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#19
+Maximum waiting time: 384.0
+Average waiting time: 384.0
+Process instances: [154] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#20
+Maximum waiting time: 1325.0
+Average waiting time: 461.0
+Process instances: [160, 156, 161] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#21
+Maximum waiting time: 1134.0
+Average waiting time: 1134.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#22
+Maximum waiting time: 680.0
+Average waiting time: 667.5
+Process instances: [165, 169] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 25] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [66] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_4#28
+Maximum waiting time: 2939.0
+Average waiting time: 2939.0
+Process instances: [67] (1 process instance(s))
+
+Maximum waiting time of all activities: 3947.0
+Average waiting time of all activities: 519.2654761904762
+== Node 5
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#1
+Maximum waiting time: 474.0
+Average waiting time: 310.33333333333337
+Process instances: [65, 48, 12] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#2
+Maximum waiting time: 3834.0
+Average waiting time: 3695.0
+Process instances: [46, 47] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [92] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#4
+Maximum waiting time: 565.0
+Average waiting time: 565.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#5
+Maximum waiting time: 1250.0
+Average waiting time: 814.5
+Process instances: [149, 147] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_5#10
+Maximum waiting time: 398.0
+Average waiting time: 398.0
+Process instances: [77] (1 process instance(s))
+
+Maximum waiting time of all activities: 3834.0
+Average waiting time of all activities: 578.2833333333332
+== Node 6
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [40] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#3
+Maximum waiting time: 474.0
+Average waiting time: 264.83333333333337
+Process instances: [63, 19, 10, 71, 37, 22] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#4
+Maximum waiting time: 3834.0
+Average waiting time: 2678.3
+Process instances: [44, 14, 45, 9, 13, 4, 23, 70, 84, 86] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#5
+Maximum waiting time: 527.0
+Average waiting time: 527.0
+Process instances: [76] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88, 94] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#7
+Maximum waiting time: 1385.0
+Average waiting time: 1385.0
+Process instances: [96] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#10
+Maximum waiting time: 368.0
+Average waiting time: 368.0
+Process instances: [103] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#11
+Maximum waiting time: 450.0
+Average waiting time: 450.0
+Process instances: [108] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#12
+Maximum waiting time: 296.0
+Average waiting time: 296.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [120] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#16
+Maximum waiting time: 386.0
+Average waiting time: 386.0
+Process instances: [130] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#17
+Maximum waiting time: 1592.0
+Average waiting time: 1442.5
+Process instances: [135, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#18
+Maximum waiting time: 538.0
+Average waiting time: 538.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#19
+Maximum waiting time: 349.0
+Average waiting time: 306.5
+Process instances: [146, 143] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#22
+Maximum waiting time: 1475.0
+Average waiting time: 1475.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#24
+Maximum waiting time: 661.0
+Average waiting time: 661.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#26
+Maximum waiting time: 407.0
+Average waiting time: 407.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#27
+Maximum waiting time: 53.0
+Average waiting time: 53.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73, 62] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [57] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_6#34
+Maximum waiting time: 2939.0
+Average waiting time: 2939.0
+Process instances: [68] (1 process instance(s))
+
+Maximum waiting time of all activities: 3834.0
+Average waiting time of all activities: 416.9745098039216
+== Node 7
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#2
+Maximum waiting time: 3640.0
+Average waiting time: 1691.0
+Process instances: [7, 42, 35, 38, 11, 18, 49, 5, 36, 15] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#3
+Maximum waiting time: 3947.0
+Average waiting time: 2007.3333333333333
+Process instances: [72, 1, 8, 52, 32, 83, 82, 24, 87] (9 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#4
+Maximum waiting time: 58.0
+Average waiting time: 58.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#7
+Maximum waiting time: 368.0
+Average waiting time: 368.0
+Process instances: [104] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#8
+Maximum waiting time: 918.0
+Average waiting time: 799.5
+Process instances: [102, 116] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#9
+Maximum waiting time: 220.0
+Average waiting time: 220.0
+Process instances: [112, 113] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#10
+Maximum waiting time: 158.0
+Average waiting time: 158.0
+Process instances: [129] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#11
+Maximum waiting time: 729.0
+Average waiting time: 729.0
+Process instances: [136] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#14
+Maximum waiting time: 307.0
+Average waiting time: 191.0
+Process instances: [157, 162, 158] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#15
+Maximum waiting time: 794.0
+Average waiting time: 794.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#18
+Maximum waiting time: 265.0
+Average waiting time: 265.0
+Process instances: [80] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_7#19
+Maximum waiting time: 398.0
+Average waiting time: 398.0
+Process instances: [79] (1 process instance(s))
+
+Maximum waiting time of all activities: 3947.0
+Average waiting time of all activities: 404.1491228070176
+== Node 8
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_8#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [91] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_8#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114] (1 process instance(s))
+
+Maximum waiting time of all activities: 0.0
+Average waiting time of all activities: 0.0
+== Node 9
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#4
+Maximum waiting time: 759.0
+Average waiting time: 759.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [155] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#7
+Maximum waiting time: 1865.0
+Average waiting time: 1637.5
+Process instances: [178, 175] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_9#9
+Maximum waiting time: 2400.0
+Average waiting time: 2400.0
+Process instances: [69] (1 process instance(s))
+
+Maximum waiting time of all activities: 2400.0
+Average waiting time of all activities: 532.9444444444445
+== Node 10
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_10#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_10#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_10#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [61] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_10#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [81] (1 process instance(s))
+
+Maximum waiting time of all activities: 0.0
+Average waiting time of all activities: 0.0
+== Node 14
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#1
+Maximum waiting time: 185.0
+Average waiting time: 185.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#2
+Maximum waiting time: 19.0
+Average waiting time: 19.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#3
+Maximum waiting time: 60.0
+Average waiting time: 60.0
+Process instances: [6] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [7, 42, 35, 38, 11, 18, 49, 5, 36, 15] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#5
+Maximum waiting time: 61.0
+Average waiting time: 61.0
+Process instances: [53, 64, 54, 55, 21, 74, 31, 26, 59, 58] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [65, 48, 12] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#7
+Maximum waiting time: 48.0
+Average waiting time: 48.0
+Process instances: [63, 19, 10, 71, 37, 22] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#9
+Maximum waiting time: 239.0
+Average waiting time: 239.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#10
+Maximum waiting time: 6.0
+Average waiting time: 6.0
+Process instances: [46, 47] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [76] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [78, 72, 75, 1, 27, 8, 16, 52, 41, 32] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [17, 83, 50, 82, 34, 24, 2, 87, 20] (9 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [44, 51, 14, 33, 45, 30, 9, 13, 4, 23] (10 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#15
+Maximum waiting time: 7.0
+Average waiting time: 7.0
+Process instances: [70, 84, 86] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [91] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88, 94] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [92] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [96] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#23
+Maximum waiting time: 173.0
+Average waiting time: 173.0
+Process instances: [98, 100] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [103] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [104] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [95, 107] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [108] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115, 106, 110] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102, 116] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [112, 113] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [120] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#44
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#45
+Maximum waiting time: 160.0
+Average waiting time: 160.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#46
+Maximum waiting time: 283.0
+Average waiting time: 283.0
+Process instances: [124, 126] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [130] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [133] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#53
+Maximum waiting time: 108.0
+Average waiting time: 108.0
+Process instances: [135, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#56
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [136] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146, 143] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#61
+Maximum waiting time: 248.0
+Average waiting time: 248.0
+Process instances: [155] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#64
+Maximum waiting time: 67.0
+Average waiting time: 67.0
+Process instances: [154] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149, 147] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160, 156, 161] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157, 162, 158] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#73
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165, 169] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178, 175] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#88
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#89
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#90
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#91
+Maximum waiting time: 270.0
+Average waiting time: 270.0
+Process instances: [61] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#92
+Maximum waiting time: 412.0
+Average waiting time: 412.0
+Process instances: [73, 62] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#93
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#94
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#95
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 25] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#96
+Maximum waiting time: 123.0
+Average waiting time: 73.0
+Process instances: [81, 66] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#97
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [80] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#98
+Maximum waiting time: 210.0
+Average waiting time: 210.0
+Process instances: [57] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#99
+Maximum waiting time: 60.0
+Average waiting time: 47.5
+Process instances: [69, 79] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#100
+Maximum waiting time: 133.0
+Average waiting time: 133.0
+Process instances: [77] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#101
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [67] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_14#102
+Maximum waiting time: 92.0
+Average waiting time: 92.0
+Process instances: [68] (1 process instance(s))
+
+Maximum waiting time of all activities: 412.0
+Average waiting time of all activities: 28.602941176470583
+== Node 17
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#1
+Maximum waiting time: 25200.0
+Average waiting time: 24514.2
+Process instances: [1, 2, 3, 4, 5] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#2
+Maximum waiting time: 23109.0
+Average waiting time: 22452.4
+Process instances: [6, 7, 8, 9, 10] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#3
+Maximum waiting time: 22069.0
+Average waiting time: 21392.2
+Process instances: [11, 12, 13, 14, 15] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#4
+Maximum waiting time: 20289.0
+Average waiting time: 19541.6
+Process instances: [16, 17, 18, 19, 20] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#5
+Maximum waiting time: 18711.0
+Average waiting time: 18212.2
+Process instances: [21, 22, 23, 24, 25] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#6
+Maximum waiting time: 17357.0
+Average waiting time: 16908.8
+Process instances: [26, 27, 28, 29, 30] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#7
+Maximum waiting time: 16162.0
+Average waiting time: 15391.8
+Process instances: [31, 32, 33, 34, 35] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#8
+Maximum waiting time: 15105.0
+Average waiting time: 14306.2
+Process instances: [36, 37, 38, 39, 40] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#9
+Maximum waiting time: 12827.0
+Average waiting time: 12139.0
+Process instances: [41, 42, 43, 44, 45] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#10
+Maximum waiting time: 10819.0
+Average waiting time: 10201.2
+Process instances: [46, 47, 48, 49, 50] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#11
+Maximum waiting time: 8917.0
+Average waiting time: 7871.0
+Process instances: [51, 52, 53, 54, 55] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#12
+Maximum waiting time: 6337.0
+Average waiting time: 5595.8
+Process instances: [56, 57, 58, 59, 60] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#13
+Maximum waiting time: 4529.0
+Average waiting time: 3841.8
+Process instances: [61, 62, 63, 64, 65] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#14
+Maximum waiting time: 2381.0
+Average waiting time: 1606.4
+Process instances: [66, 67, 68, 69, 70] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#15
+Maximum waiting time: 333.0
+Average waiting time: 250.5
+Process instances: [71, 72] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [74] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#18
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [75] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [76] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [77] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#21
+Maximum waiting time: 1.0
+Average waiting time: 1.0
+Process instances: [78] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [79] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#23
+Maximum waiting time: 29.0
+Average waiting time: 29.0
+Process instances: [80] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [81] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [82] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [83] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [84] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#28
+Maximum waiting time: 8.0
+Average waiting time: 8.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [86] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#33
+Maximum waiting time: 100.0
+Average waiting time: 100.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#34
+Maximum waiting time: 314.0
+Average waiting time: 314.0
+Process instances: [91] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#35
+Maximum waiting time: 174.0
+Average waiting time: 174.0
+Process instances: [92] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#36
+Maximum waiting time: 247.0
+Average waiting time: 247.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [94] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [95] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#39
+Maximum waiting time: 51.0
+Average waiting time: 51.0
+Process instances: [96] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [100] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#45
+Maximum waiting time: 79.0
+Average waiting time: 79.0
+Process instances: [102] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#46
+Maximum waiting time: 85.0
+Average waiting time: 85.0
+Process instances: [103, 104, 105] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [106] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [107] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [108] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#50
+Maximum waiting time: 49.0
+Average waiting time: 49.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [112] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#54
+Maximum waiting time: 22.0
+Average waiting time: 22.0
+Process instances: [113] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#55
+Maximum waiting time: 20.0
+Average waiting time: 20.0
+Process instances: [114] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#56
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#57
+Maximum waiting time: 43.0
+Average waiting time: 43.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#60
+Maximum waiting time: 190.0
+Average waiting time: 190.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#61
+Maximum waiting time: 38.0
+Average waiting time: 38.0
+Process instances: [120] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#62
+Maximum waiting time: 28.0
+Average waiting time: 28.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [130] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#72
+Maximum waiting time: 16.0
+Average waiting time: 16.0
+Process instances: [131] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#73
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [133] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [136] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [138] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#82
+Maximum waiting time: 20.0
+Average waiting time: 20.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#88
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#89
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#90
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#91
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#92
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#93
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#94
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#95
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [154] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#96
+Maximum waiting time: 274.0
+Average waiting time: 274.0
+Process instances: [155] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#97
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [156] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#98
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#99
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [158] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#100
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#101
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#102
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [161, 162] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#103
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#104
+Maximum waiting time: 66.0
+Average waiting time: 66.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#105
+Maximum waiting time: 81.0
+Average waiting time: 81.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#106
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#107
+Maximum waiting time: 11.0
+Average waiting time: 11.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#108
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#109
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#110
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#111
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#112
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#113
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#114
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#115
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#116
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#117
+Maximum waiting time: 156.0
+Average waiting time: 156.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#118
+Maximum waiting time: 115.0
+Average waiting time: 115.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#119
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_17#120
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+Maximum waiting time of all activities: 25200.0
+Average waiting time of all activities: 1637.1508333333343
+== Node 18
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#1
+Maximum waiting time: 596.0
+Average waiting time: 596.0
+Process instances: [6, 7] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#2
+Maximum waiting time: 596.0
+Average waiting time: 596.0
+Process instances: [8, 9] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#3
+Maximum waiting time: 596.0
+Average waiting time: 298.0
+Process instances: [10, 31] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 33] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [36, 34] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37, 41] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [42, 39] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 40] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [44, 45] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [51, 52] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [53, 54] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#13
+Maximum waiting time: 7.0
+Average waiting time: 7.0
+Process instances: [55] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [71, 72] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [74] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [11, 12] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [13, 14] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [46, 47] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [48, 49] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#21
+Maximum waiting time: 99.0
+Average waiting time: 99.0
+Process instances: [50] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [18, 19] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#24
+Maximum waiting time: 25.0
+Average waiting time: 25.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [1, 2] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3, 4] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#27
+Maximum waiting time: 22.0
+Average waiting time: 22.0
+Process instances: [5] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [61, 62] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#29
+Maximum waiting time: 14.0
+Average waiting time: 14.0
+Process instances: [63, 64] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#30
+Maximum waiting time: 21.0
+Average waiting time: 21.0
+Process instances: [65] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 57] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [58, 59] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#33
+Maximum waiting time: 34.0
+Average waiting time: 34.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [75] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#35
+Maximum waiting time: 70.0
+Average waiting time: 70.0
+Process instances: [78] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [26, 27] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#38
+Maximum waiting time: 33.0
+Average waiting time: 33.0
+Process instances: [30] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#39
+Maximum waiting time: 2.0
+Average waiting time: 2.0
+Process instances: [76] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [77] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [21, 22] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [23, 24] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [66, 67] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [68, 69] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#46
+Maximum waiting time: 68.0
+Average waiting time: 68.0
+Process instances: [70] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [82] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [84] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#50
+Maximum waiting time: 12.0
+Average waiting time: 12.0
+Process instances: [83] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [86] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#54
+Maximum waiting time: 374.0
+Average waiting time: 374.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#55
+Maximum waiting time: 155.0
+Average waiting time: 155.0
+Process instances: [88] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#56
+Maximum waiting time: 227.0
+Average waiting time: 190.5
+Process instances: [91, 92] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [94] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [96] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#63
+Maximum waiting time: 76.0
+Average waiting time: 76.0
+Process instances: [95] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#64
+Maximum waiting time: 119.0
+Average waiting time: 119.0
+Process instances: [100] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [103, 104] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [101] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#68
+Maximum waiting time: 42.0
+Average waiting time: 42.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#69
+Maximum waiting time: 50.0
+Average waiting time: 50.0
+Process instances: [106] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [107] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#73
+Maximum waiting time: 5.0
+Average waiting time: 5.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [108] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [112] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#76
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [111] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [113] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#80
+Maximum waiting time: 42.0
+Average waiting time: 42.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [114] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [120] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#88
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#89
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#90
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#91
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#92
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [130] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#93
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#94
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#95
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#96
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [133] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#97
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#98
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#99
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#100
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [136] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#101
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [138] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#102
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#103
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#104
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#105
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#106
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#107
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#108
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#109
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#110
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#111
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#112
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#113
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#114
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#115
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#116
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [155] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#117
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#118
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#119
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [156] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#120
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#121
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [161, 162] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#122
+Maximum waiting time: 6.0
+Average waiting time: 6.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#123
+Maximum waiting time: 23.0
+Average waiting time: 23.0
+Process instances: [158] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#124
+Maximum waiting time: 57.0
+Average waiting time: 57.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#125
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#126
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#127
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#128
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#129
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#130
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#131
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#132
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#133
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#134
+Maximum waiting time: 260.0
+Average waiting time: 260.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#135
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#136
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#137
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#138
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#139
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#140
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#141
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#142
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#143
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [80] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#144
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [81] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_18#145
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [79] (1 process instance(s))
+
+Maximum waiting time of all activities: 596.0
+Average waiting time of all activities: 22.7344827586207
+== Node 19
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6, 7, 42] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [44, 45] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [51, 52] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#6
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [74] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#7
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [13, 14] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [50] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [8, 9] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [36, 34] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#11
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [46, 47] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [48, 49] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [5] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#14
+Maximum waiting time: 7.0
+Average waiting time: 7.0
+Process instances: [55] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [20] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [15] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#17
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [1, 2] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [63, 64] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [10, 31] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [65] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3, 4] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [18, 19] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#23
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [53, 54] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [58, 59] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#25
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [78] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#26
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [37, 41] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [75] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#28
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [16, 17] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#29
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [21, 22] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [26, 27] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#31
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [32, 33] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [71, 72] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [61, 62] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#34
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [70] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [11, 12] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#37
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#38
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [25] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#39
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [56, 57] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#40
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [76] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [30] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#42
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [23, 24] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [83] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [82] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [84] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#46
+Maximum waiting time: 242.0
+Average waiting time: 242.0
+Process instances: [86] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#47
+Maximum waiting time: 171.0
+Average waiting time: 171.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#48
+Maximum waiting time: 346.0
+Average waiting time: 346.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#49
+Maximum waiting time: 171.0
+Average waiting time: 171.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#50
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#51
+Maximum waiting time: 24.0
+Average waiting time: 24.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [88] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#53
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [94] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [91, 92] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [96] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#56
+Maximum waiting time: 121.0
+Average waiting time: 121.0
+Process instances: [98] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#58
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [100] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#59
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#60
+Maximum waiting time: 157.0
+Average waiting time: 157.0
+Process instances: [101] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [95] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [107] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [103, 104] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#65
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [102] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#66
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [106] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [108] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#72
+Maximum waiting time: 39.0
+Average waiting time: 39.0
+Process instances: [111] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#73
+Maximum waiting time: 43.0
+Average waiting time: 43.0
+Process instances: [113] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#74
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [112] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#75
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#76
+Maximum waiting time: 73.0
+Average waiting time: 73.0
+Process instances: [114] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#77
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#78
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [120] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#79
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#80
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#81
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#82
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#83
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#84
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#85
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#86
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#87
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#88
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [130] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#89
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [131] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#90
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [129] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#91
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [133] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#92
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#93
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [132] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#94
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [138] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#95
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#96
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#97
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [136] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#98
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [140] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#99
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#100
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#101
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#102
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#103
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#104
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#105
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#106
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#107
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#108
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [147] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#109
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [155] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#110
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#111
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#112
+Maximum waiting time: 47.0
+Average waiting time: 47.0
+Process instances: [156] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#113
+Maximum waiting time: 27.0
+Average waiting time: 27.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#114
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#115
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [158] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#116
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [161, 162] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#117
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#118
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#119
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#120
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#121
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#122
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#123
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#124
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#125
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#126
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#127
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#128
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#129
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#130
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#131
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#132
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#133
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#134
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#135
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#136
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#137
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#138
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [66, 67] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#139
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [60] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#140
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [80] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#141
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [77] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#142
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [79] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#143
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [68, 69] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_19#144
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [81] (1 process instance(s))
+
+Maximum waiting time of all activities: 346.0
+Average waiting time of all activities: 10.194444444444443
+== Node 23
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [43, 39, 40] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#2
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [7, 42] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#3
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [35, 38] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#4
+Maximum waiting time: 3078.0
+Average waiting time: 2929.3333333333335
+Process instances: [44, 45, 50, 8, 9, 13] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#5
+Maximum waiting time: 2812.0
+Average waiting time: 2572.833333333333
+Process instances: [14, 36, 34, 46, 47, 51] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#6
+Maximum waiting time: 2461.0
+Average waiting time: 2341.8333333333335
+Process instances: [52, 74, 1, 2, 20, 4] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#7
+Maximum waiting time: 2643.0
+Average waiting time: 2557.3333333333335
+Process instances: [48, 49, 5, 31, 65, 63] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#8
+Maximum waiting time: 2480.0
+Average waiting time: 2262.833333333333
+Process instances: [64, 55, 15, 59, 53, 18] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#9
+Maximum waiting time: 2151.0
+Average waiting time: 1987.3333333333333
+Process instances: [19, 78, 75, 37, 41, 22] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#10
+Maximum waiting time: 1668.0
+Average waiting time: 1568.8333333333333
+Process instances: [71, 72, 27, 16, 17, 12] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#11
+Maximum waiting time: 4548.0
+Average waiting time: 3892.0
+Process instances: [32, 70, 33, 76, 30, 24] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#12
+Maximum waiting time: 87.0
+Average waiting time: 87.0
+Process instances: [85] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#13
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [87] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#14
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [89] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [90] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [93] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#17
+Maximum waiting time: 1018.0
+Average waiting time: 1018.0
+Process instances: [91, 92] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [97] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [98] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#20
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [100] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#21
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [99] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#22
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [105] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#23
+Maximum waiting time: 1087.0
+Average waiting time: 670.0
+Process instances: [101, 95, 103, 107] (4 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#24
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [109] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#25
+Maximum waiting time: 864.0
+Average waiting time: 740.0
+Process instances: [102, 106, 108] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#26
+Maximum waiting time: 156.0
+Average waiting time: 156.0
+Process instances: [116] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#27
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [117] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#28
+Maximum waiting time: 577.0
+Average waiting time: 495.3333333333333
+Process instances: [111, 112, 113] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#29
+Maximum waiting time: 1127.0
+Average waiting time: 622.0
+Process instances: [114, 120] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#30
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [123] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#31
+Maximum waiting time: 316.0
+Average waiting time: 316.0
+Process instances: [119] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#32
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [125] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#33
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [124] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#34
+Maximum waiting time: 136.0
+Average waiting time: 136.0
+Process instances: [122] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#35
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [126] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#36
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [128] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#37
+Maximum waiting time: 180.0
+Average waiting time: 111.5
+Process instances: [131, 130] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#38
+Maximum waiting time: 320.0
+Average waiting time: 229.0
+Process instances: [129, 133] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#39
+Maximum waiting time: 90.0
+Average waiting time: 90.0
+Process instances: [135] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#40
+Maximum waiting time: 261.0
+Average waiting time: 187.0
+Process instances: [132, 138] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#41
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [137] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#42
+Maximum waiting time: 239.0
+Average waiting time: 190.0
+Process instances: [140, 136] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#43
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [145] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#44
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [146] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#45
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [143] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#46
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [153] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#47
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [150, 154] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#48
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [151] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#49
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [149] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#50
+Maximum waiting time: 373.0
+Average waiting time: 253.5
+Process instances: [147, 155] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#51
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [152] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#52
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [160] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#53
+Maximum waiting time: 432.0
+Average waiting time: 161.33333333333331
+Process instances: [156, 161, 162] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#54
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [158] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#55
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [166] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#56
+Maximum waiting time: 27.0
+Average waiting time: 27.0
+Process instances: [163] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#57
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [168] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#58
+Maximum waiting time: 589.0
+Average waiting time: 589.0
+Process instances: [159] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#59
+Maximum waiting time: 1.0
+Average waiting time: 1.0
+Process instances: [169] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#60
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [173] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#61
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [170] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#62
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [171] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#63
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [176] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#64
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [174] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#65
+Maximum waiting time: 315.0
+Average waiting time: 315.0
+Process instances: [178] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#66
+Maximum waiting time: 368.0
+Average waiting time: 368.0
+Process instances: [175] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#67
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [144] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#68
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [142] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#69
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [172] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#70
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [73] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#71
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [62] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#72
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [28, 29] (2 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#73
+Maximum waiting time: 3363.0
+Average waiting time: 3011.833333333333
+Process instances: [56, 60, 25, 66, 69, 80] (6 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#74
+Maximum waiting time: 2465.0
+Average waiting time: 2465.0
+Process instances: [77] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_23#75
+Maximum waiting time: 109.0
+Average waiting time: 109.0
+Process instances: [81] (1 process instance(s))
+
+Maximum waiting time of all activities: 4548.0
+Average waiting time of all activities: 432.81111111111113
+== Node 24
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_24#1
+Maximum waiting time: 2244.0
+Average waiting time: 2244.0
+Process instances: [82] (1 process instance(s))
+
+Maximum waiting time of all activities: 2244.0
+Average waiting time of all activities: 2244.0
+== Node 25
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [6] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#2
+Maximum waiting time: 2518.0
+Average waiting time: 1885.4
+Process instances: [10, 54, 21, 26, 11] (5 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#3
+Maximum waiting time: 2445.0
+Average waiting time: 1273.0
+Process instances: [83, 84, 86] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#4
+Maximum waiting time: 1574.0
+Average waiting time: 932.0
+Process instances: [88, 94, 96] (3 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#5
+Maximum waiting time: 638.0
+Average waiting time: 638.0
+Process instances: [104] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#6
+Maximum waiting time: 151.0
+Average waiting time: 151.0
+Process instances: [110] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#7
+Maximum waiting time: 919.0
+Average waiting time: 919.0
+Process instances: [118] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#8
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [121] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#9
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [127] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#10
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [134] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#11
+Maximum waiting time: 391.0
+Average waiting time: 391.0
+Process instances: [141] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#12
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [148] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#13
+Maximum waiting time: 499.0
+Average waiting time: 499.0
+Process instances: [157] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#14
+Maximum waiting time: 523.0
+Average waiting time: 523.0
+Process instances: [165] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#15
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [179] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#16
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [177] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#17
+Maximum waiting time: 104.0
+Average waiting time: 104.0
+Process instances: [180] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#18
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [139] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#19
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [61] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_25#20
+Maximum waiting time: 3375.0
+Average waiting time: 2913.25
+Process instances: [57, 67, 68, 79] (4 process instance(s))
+
+Maximum waiting time of all activities: 3375.0
+Average waiting time of all activities: 511.4325000000001
+== Node 26
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_26#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [167] (1 process instance(s))
+
+Maximum waiting time of all activities: 0.0
+Average waiting time of all activities: 0.0
+== Node 28
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_28#1
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [3] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_28#2
+Maximum waiting time: 1926.0
+Average waiting time: 1926.0
+Process instances: [58] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_28#3
+Maximum waiting time: 1614.0
+Average waiting time: 1614.0
+Process instances: [23] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_28#4
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [115] (1 process instance(s))
+
+-- BatchCluster_sid-f1827831-d6c7-4585-84df-57e0fb21ae2f_28#5
+Maximum waiting time: 0.0
+Average waiting time: 0.0
+Process instances: [164] (1 process instance(s))
+
+Maximum waiting time of all activities: 1926.0
+Average waiting time of all activities: 708.0
+
+

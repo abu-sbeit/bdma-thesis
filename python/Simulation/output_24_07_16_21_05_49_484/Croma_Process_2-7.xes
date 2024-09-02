@@ -1,0 +1,4032 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext"/>
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<global scope="trace">
+		<string key="concept:name" value="__INVALID__"/>
+	</global>
+	<global scope="event">
+		<string key="concept:name" value="__INVALID__"/>
+		<string key="lifecycle:transition" value="complete"/>
+	</global>
+	<classifier name="MXML Legacy Classifier" keys="concept:name lifecycle:transition"/>
+	<classifier name="Event Name" keys="concept:name"/>
+	<classifier name="Resource" keys="org:resource"/>
+	<classifier name="Event Name AND Resource" keys="concept:name org:resource"/>
+	<string key="description" value="Log file created in Scylla"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="source" value="Scylla"/>
+	<string key="concept:name" value="sid-f1827831-d6c7-4585-84df-57e0fb21ae2f"/>
+	<trace>
+		<string key="concept:name" value="1"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T07:00:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T07:00:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T07:00:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T07:21:29+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T07:21:29+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T07:35:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T07:35:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T07:40:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T07:40:43+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:40:43+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:40:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:46:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:46:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:46:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:46:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:06:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:06:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:11:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:11:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:20:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:20:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:24:56+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:24:56+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:24:56+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T08:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T09:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:17+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:17+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:41:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:43:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#0"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:43:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#0"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:51:51+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:02:41+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:18:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:24:21+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T08:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T08:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:26:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:17+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:17+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:51:53+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:51:53+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:56:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:56:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:58:40+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:02:41+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:45:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:45:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:48:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:49:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:49:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:49:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:50:03+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:53:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:15:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:32:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:45:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:45:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:47:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:48:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:49:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:49:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:50:03+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:53:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:02:41+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:57+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:15:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:32:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:15:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:34:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:36:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:41:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:41:04+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:41:04+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:41:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T10:48:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:48:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:50:01+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:10:03+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:04+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:39:48+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:39:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:43:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:49:47+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:49:47+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:53:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:53:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:56:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T09:56:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T10:56:45+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:04:44+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:07:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:09:38+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:09:38+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:13:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:13:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:15:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:32:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:39:48+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:39:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:43:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:49:47+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:49:47+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:53:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T09:53:32+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T09:56:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T10:41:04+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:41:04+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:46:07+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:46:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:46:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:10:03+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:17:06+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:17:06+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:25:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:25:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:28:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:28:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:28:36+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:30:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:30:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:38:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:38:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T11:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T12:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:59+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:11+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:11+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:52:37+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:52:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:55:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:55:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:55:31+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:30:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:30:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:38:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:38:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T11:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T12:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:42:08+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:59+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:50:24+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:53:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:53:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:57:33+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:59:35+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:04:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:04:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:04:23+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:19:16+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:30:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:38:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:41:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:41:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T11:44:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T11:44:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:02+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:44:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:06:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:06:39+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:09:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:09:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:49:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:49:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:52:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:52:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:52:50+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:14:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:17:06+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:32:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:34:20+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:50:24+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:51:11+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T12:57:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T12:57:23+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:57:23+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:57:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:59:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:00:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:00:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:00:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:14:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:38:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:43:42+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T14:43:42+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:45:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:45:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:47:51+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:47:51+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:47:51+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:05:48+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:05:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:05:48+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:16:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:16:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:17:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:17:25+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T13:20:01+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T13:20:01+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T14:20:01+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:43:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:46:06+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:47:59+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:48:14+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:51:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:06:54+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:06:54+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:11:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:11:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T16:13:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:33+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:18:03+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T16:18:03+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T16:18:03+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T14:04:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T14:04:45+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:14:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:38:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:46:06+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:47:59+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:48:14+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T14:51:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T14:51:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T15:51:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:51:00+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:58+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:05:01+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:33+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:41:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:41:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:46:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T16:46:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:53:48+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:55:03+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:59:02+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:59:02+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:59:02+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:58+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:33+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:36+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:20:36+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:25:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:33:38+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:43:06+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:43:06+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:47:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T18:47:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:47:09+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:58+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:33+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumetal Nuevo"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T17:20:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:25:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:33:38+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:55:03+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:58:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:59:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:59:46+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T19:07:21+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:20:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T19:20:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T19:20:37+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:58+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:05:01+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:25:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:21:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:22:49+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:27+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T15:55:58+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:04:31+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:05:01+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carros"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Jupiter_#0"/>
+			<date key="time:timestamp" value="2022-01-01T16:20:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carros"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Jupiter_#0"/>
+			<date key="time:timestamp" value="2022-01-01T17:00:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:00:29+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:05:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:11:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:11:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:22:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:22:49+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:23:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:23:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:53:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:53:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:58:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:58:09+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:58:09+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:16:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:20:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:23:30+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T19:23:30+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:26:55+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:23:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:23:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:32:20+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:41:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:53:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:53:04+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:58:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:58:09+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:58:09+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:16:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:25:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:25:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:31:11+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T19:31:11+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#1"/>
+			<string key="concept:name" value="CONTENE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:32:41+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="21"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T17:46:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T17:46:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T17:46:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:05:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:05:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:22:49+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:26:44+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:33:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T18:33:14+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T19:33:14+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:33:14+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:34:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:34:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:34:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:34:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:52:41+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:52:41+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:55:30+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="GOMAS"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T19:55:30+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="GOMAS"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T21:04:12+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:04:12+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:05:56+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T21:05:56+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T21:05:56+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="22"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T18:57:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T18:57:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T18:57:17+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:37+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T19:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T20:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:15:42+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:18:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:18:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:18:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:18:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:44:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:27+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:27+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T21:49:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:49:53+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:52:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T21:52:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T21:52:28+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T21:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#0"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T22:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:21:47+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:28:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:32:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:35:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:40:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#0"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T22:40:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#0"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T23:44:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:06:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="24"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T20:48:22+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:07:36+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T21:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-01T22:09:13+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:21:47+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:28:08+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:30:11+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:47:47+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:47:47+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:54:18+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T22:54:18+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T23:58:51+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:06:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T21:56:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T21:56:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T21:56:26+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:21:47+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:27:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:30:11+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:32:35+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Usuario_BM"/>
+			<date key="time:timestamp" value="2022-01-01T22:35:28+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-01T22:35:28+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-01T23:35:28+01:00"/>
+			<string key="org:resource" value="Lavadora_#2"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:04:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:06:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:12:05+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:14:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:45:58+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:45:58+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:49:22+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:49:22+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="INTRUM"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:03:27+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:13:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:16:24+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:16:24+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:16:24+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="26"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T00:20:23+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T00:20:23+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:26:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:26:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:51+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:34:05+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:13:52+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:16:24+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:23:49+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="GOMAS"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:23:49+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#3"/>
+			<string key="concept:name" value="GOMAS"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:25:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T10:25:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:29:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T10:29:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:29:50+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T03:26:55+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T03:26:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:26:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:26:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Lavadora_#1"/>
+			<string key="concept:name" value="Instrumental normal"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:29:04+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:51+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:34:05+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:38:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:53:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:53:35+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:58:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:58:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="VPro_#0"/>
+			<string key="concept:name" value="No Lumen"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:38:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:38:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:42:18+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:42:18+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:42:18+01:00"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28"/>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T04:19:43+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Contaminated Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T04:19:43+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Entrada Material Sucio"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:11:26+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:12:05+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Cargado en carro L+D"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:14:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T07:26:15+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D iniciada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T07:32:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="start"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-02T07:32:09+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Priones"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="org:resource" value="Lavadora_#3"/>
+			<date key="time:timestamp" value="2022-01-02T08:32:09+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:33:00+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga L+D liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:38:28+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:53:13+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Montaje"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T08:53:35+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T08:58:55+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Producción montada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:18:59+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:18:59+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Composición de cargas"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T09:27:35+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T09:27:35+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Autoclave_#2"/>
+			<string key="concept:name" value="PRIONES"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:29:34+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T10:29:50+01:00"/>
+		</event>
+		<event>
+			<string key="org:resource" value="Usuario_AV"/>
+			<string key="concept:name" value="Carga de esterilizador liberada"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:34:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="start"/>
+			<date key="time:timestamp" value="2022-01-02T10:34:50+01:00"/>
+		</event>
+		<event>
+			<string key="concept:name" value="Sterilized Kits"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<date key="time:timestamp" value="2022-01-02T10:34:50+01:00"/>
+		</event>
+	</trace>
+</log>
